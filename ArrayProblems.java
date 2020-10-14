@@ -37,6 +37,8 @@ public class ArrayProblems{
 
 
     }
+
+    //No.1
     public static void binarySearch(int key, int arr[]){
         int mid;
         int left = 0;
@@ -59,6 +61,7 @@ public class ArrayProblems{
         }
     }
 
+    //No.2
     public static int getRandom(int... numbers){
        
         int random;
@@ -77,6 +80,7 @@ public class ArrayProblems{
 
     }
 
+    //No.3-1
     public static int average(int[] array){
         int sum = 0;
         for(int val : array)
@@ -84,6 +88,7 @@ public class ArrayProblems{
             return sum / array.length;
     }
 
+    //No.3-2
     public static double average(double[] array){
         double sum = 0.0;
         for(double val : array)
@@ -91,6 +96,7 @@ public class ArrayProblems{
             return sum / array.length;
     }
 
+    //No.4
     public static double min(double[] array){
         double min = array[0];
         for(double i : array){
